@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+body{
+    height: 100vh;
+}
+.head{
+    background-color: rgb(208, 231, 235);
+    padding: 0px 200px;
+}
+.head img{
+    display: block;
+}
+.head h1{
+    color: rgb(106, 203, 241);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.head p{
+    font-size: 1.3rem;
+    color: rgb(106, 203, 241);
+    padding-bottom: 20px;
+}
+.about{
+    padding: 30px 250px;
+}
+.about h3{
+    color: rgb(106, 203, 241);
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 20pt;
+}
+.about p{
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.portfolio{
+    background-color: gainsboro;
+    padding: 30px 200px;
+    display: flexbox;
+    flex-wrap: wrap;
+}
+.portfolio h1{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.portfolio img{
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+}
+.portfolio img:hover{
+    width: 300px;
+    height: 300px;
+}
+.contact{
+    padding: 10px 200px;
+}
+.foot{
+    background-color: rgb(106, 203, 241);
+    padding: 20px 200px;
+}
+.foot a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(17, 127, 155);
+}
+.skill1{
+    display: flex;
+    flex-direction: row;
+    border-top: 10px solid black;
+    padding-bottom: 10px;
+}
+.skill2{
+    display: flex;
+    flex-direction: row;
+    border-top: 10px solid black;
+    padding-bottom: 10px;
+}
+h4{
+    color: rgb(106, 203, 241);
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 14pt;
+}
+h3{
+    color: rgb(106, 203, 241);
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+hr{
+    border: 1px dotted gainsboro;
+    margin: 30px 400px;
+}
+.contact button{
+    background-color: rgb(106, 203, 241);
+    border-radius: 4px;
+    padding: 10px;
+}
+.contact p{
+    padding-bottom: 5px;
+}
+.contact button a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    color: white;
+    padding-top: 40px;
+    font-size: 12pt;
+}
